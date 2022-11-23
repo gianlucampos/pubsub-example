@@ -27,7 +27,5 @@ spring:
   cloud:
     gcp:
       project-id: pubsub-example-368303
-      credentials:
-        location: classpath:credentials.json
     pubsub:
       enabled: true
